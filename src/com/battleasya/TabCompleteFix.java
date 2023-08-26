@@ -11,10 +11,10 @@ public class TabCompleteFix extends JavaPlugin implements Listener {
     public void onEnable() {
 
         /* register event handler */
-        getServer().getPluginManager().registerEvents(new EventHandler(this), this);
+        getServer().getPluginManager().registerEvents(new TCFEventHandler(this), this);
 
         /* register command executor */
-        getCommand("tcftoggle").setExecutor(new CmdExecutor(this));
+        getCommand("tcftoggle").setExecutor(new TCFCmdExecutor(this));
 
     }
 
