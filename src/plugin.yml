@@ -1,0 +1,12 @@
+name: TabCompleteFix
+main: com.battleasya.TabCompleteFix
+version: 1.0.0
+description: TabCompleteFix for iSpigot2
+authors: [Dennie]
+website: http://battleasya.com
+commands:
+  tcftoggle:
+    description: Toggle on or off TabCompleteFix
+permissions:
+  tcf.admin:
+    description: Toggle on or off TabCompleteFix
