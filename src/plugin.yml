@@ -1,8 +1,9 @@
 name: TabCompleteFix
 main: com.battleasya.TabCompleteFix
+depend: [PremiumVanish]
 version: 1.0.0
-description: TabCompleteFix for iSpigot2
 authors: [Dennie]
+description: TabCompleteFix for iSpigot2
 website: http://battleasya.com
 commands:
   tcftoggle:
