@@ -1,6 +1,6 @@
 name: TabCompleteFix
 main: com.battleasya.TabCompleteFix
-version: 1.0.0
+version: 1.0.1
 author: Dennie
 website: http://battleasya.com
 depend: [PremiumVanish]
