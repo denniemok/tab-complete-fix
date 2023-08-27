@@ -3,7 +3,7 @@ package com.battleasya;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class TabCompleteFix extends JavaPlugin implements Listener {
+public class TabCompleteFix extends JavaPlugin {
 
     public boolean enable = true;
 
