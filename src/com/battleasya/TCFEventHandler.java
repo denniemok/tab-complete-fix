@@ -31,12 +31,14 @@ public class TCFEventHandler implements Listener {
 
         /* remove all invisible players from the tab complete list */
         for (UUID uuid : VanishAPI.getInvisiblePlayers()) {
-            try {
-                String playerName = Bukkit.getPlayer(uuid).getName(); // convert UUID to name
+
+            String playerName = Bukkit.getPlayer(uuid).getName(); // convert UUID to name
+            /* https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Bukkit.html#getPlayer(java.util.UUID) */
+
+            if (playerName != null) { // if resolution succeeds
                 event.getTabCompletions().remove(playerName); // remove from list
-            } catch (Exception e) {
-                return; // take no action if UUID resolution failed
             }
+
         }
 
     }
