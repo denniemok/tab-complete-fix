@@ -6,4 +6,4 @@ You may refer to [Issue #11](https://github.com/Imanity-Software/ImanitySpigot2-
 ## Dependencies
 - Java 8
 - ImanitySpigot 2
-- PremiumVanish 2.5.14+
+- PremiumVanish 2.5.14
