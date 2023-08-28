@@ -1,5 +1,7 @@
 package com.battleasya;
 
+import com.battleasya.Cmd.tcftoggle;
+import com.battleasya.Handler.TabComplete;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class TabCompleteFix extends JavaPlugin {
@@ -10,10 +12,10 @@ public class TabCompleteFix extends JavaPlugin {
     public void onEnable() {
 
         /* register event handler */
-        getServer().getPluginManager().registerEvents(new TCFEventHandler(this), this);
+        getServer().getPluginManager().registerEvents(new TabComplete(this), this);
 
         /* register command executor */
-        getCommand("tcftoggle").setExecutor(new TCFCmdExecutor(this));
+        getCommand("tcftoggle").setExecutor(new tcftoggle(this));
 
     }
 

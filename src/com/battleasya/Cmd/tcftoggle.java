@@ -1,15 +1,16 @@
-package com.battleasya;
+package com.battleasya.Cmd;
 
+import com.battleasya.TabCompleteFix;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-public class TCFCmdExecutor implements CommandExecutor {
+public class tcftoggle implements CommandExecutor {
 
     private final TabCompleteFix plugin;
 
-    public TCFCmdExecutor(TabCompleteFix plugin) {
+    public tcftoggle(TabCompleteFix plugin) {
         this.plugin = plugin;
     }
 

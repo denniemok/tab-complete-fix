@@ -1,17 +1,19 @@
-package com.battleasya;
+package com.battleasya.Handler;
 
 import java.util.UUID;
+
+import com.battleasya.TabCompleteFix;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerChatTabCompleteEvent;
 import de.myzelyam.api.vanish.VanishAPI;
 
-public class TCFEventHandler implements Listener {
+public class TabComplete implements Listener {
 
     private final TabCompleteFix plugin;
 
-    public TCFEventHandler(TabCompleteFix plugin) {
+    public TabComplete(TabCompleteFix plugin) {
         this.plugin = plugin;
     }
 
