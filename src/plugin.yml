@@ -3,8 +3,8 @@ main: com.battleasya.TabCompleteFix
 version: 1.0.2
 author: Dennie
 website: http://battleasya.com
-description: TabCompleteFix for iSpigot2.
-depend: [PremiumVanish]
+description: TabCompleteFix for iSpigot2
+softdepend: [SuperVanish, PremiumVanish]
 commands:
   tcftoggle:
     description: Enable or disable the fix.
