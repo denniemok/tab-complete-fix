@@ -6,11 +6,11 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-public class TCFToggle implements CommandExecutor {
+public class Toggle implements CommandExecutor {
 
     private final TabCompleteFix plugin;
 
-    public TCFToggle(TabCompleteFix plugin) {
+    public Toggle(TabCompleteFix plugin) {
         this.plugin = plugin;
     }
 
