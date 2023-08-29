@@ -1,4 +1,4 @@
-package com.battleasya.Handler;
+package com.battleasya.Hdlr;
 
 import java.util.UUID;
 
