@@ -18,14 +18,16 @@ public class TCFToggle implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 
         /* if sender has the correct permission */
-        if (sender.hasPermission("tcf.admin")) {
-            if (plugin.getStatus()) {
-                plugin.setDisable();
-                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8(&4&l!&8) &cTabCompleteFix Disabled."));
-            } else {
-                plugin.setEnable();
-                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8(&4&l!&8) &aTabCompleteFix Enabled."));
-            }
+        if (!sender.hasPermission("tcf.admin")) {
+            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8(&4&l!&8) &6Unknown Command."));
+        }
+
+        if (plugin.getStatus()) {
+            plugin.setDisable();
+            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cTabCompleteFix Disabled."));
+        } else {
+            plugin.setEnable();
+            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&aTabCompleteFix Enabled."));
         }
 
         return true;
