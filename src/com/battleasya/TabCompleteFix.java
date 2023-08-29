@@ -1,7 +1,7 @@
 package com.battleasya;
 
-import com.battleasya.Cmd.Toggle;
-import com.battleasya.Hdlr.TabComplete;
+import com.battleasya.command.Toggle;
+import com.battleasya.handler.TabComplete;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class TabCompleteFix extends JavaPlugin {

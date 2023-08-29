@@ -1,4 +1,4 @@
-package com.battleasya.Cmd;
+package com.battleasya.command;
 
 import com.battleasya.TabCompleteFix;
 import org.bukkit.ChatColor;
