@@ -27,7 +27,7 @@ public class TabComplete implements Listener {
 
         /* if someone has the ability to vanish, then most probably
            he or she also has the ability to see invisible players */
-        if (event.getPlayer().hasPermission("pv.use")) {
+        if (event.getPlayer().hasPermission("pv.see")||event.getPlayer().hasPermission("sv.see")) {
             return; // take no action
         }
 
