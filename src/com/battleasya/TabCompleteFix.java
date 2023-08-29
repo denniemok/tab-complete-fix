@@ -1,6 +1,6 @@
 package com.battleasya;
 
-import com.battleasya.Cmd.TCFToggle;
+import com.battleasya.Cmd.Toggle;
 import com.battleasya.Hdlr.TabComplete;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -15,7 +15,7 @@ public class TabCompleteFix extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new TabComplete(this), this);
 
         /* register command executor */
-        getCommand("tcftoggle").setExecutor(new TCFToggle(this));
+        getCommand("tcftoggle").setExecutor(new Toggle(this));
 
     }
 
