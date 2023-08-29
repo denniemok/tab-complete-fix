@@ -1,10 +1,10 @@
 name: TabCompleteFix
 main: com.battleasya.TabCompleteFix
-version: 1.0.1
+version: 1.0.2
 author: Dennie
 website: http://battleasya.com
-depend: [PremiumVanish]
 description: TabCompleteFix for iSpigot2.
+depend: [PremiumVanish]
 commands:
   tcftoggle:
     description: Enable or disable the fix.
