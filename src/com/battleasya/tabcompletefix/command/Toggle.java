@@ -1,6 +1,6 @@
-package com.battleasya.command;
+package com.battleasya.tabcompletefix.command;
 
-import com.battleasya.TabCompleteFix;
+import com.battleasya.tabcompletefix.TabCompleteFix;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

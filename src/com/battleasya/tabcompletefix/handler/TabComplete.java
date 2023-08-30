@@ -1,8 +1,8 @@
-package com.battleasya.handler;
+package com.battleasya.tabcompletefix.handler;
 
 import java.util.UUID;
 
-import com.battleasya.TabCompleteFix;
+import com.battleasya.tabcompletefix.TabCompleteFix;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
