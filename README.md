@@ -3,9 +3,9 @@
 <p align="center">A simple fix for <a href="https://github.com/Imanity-Software/ImanitySpigot2-Issues/issues/11">Issue #11.</a></p>
 
 <p align="center">
-    <a href="https://github.com/denniemok/Tab-Complete-Fix/releases">Latest Release</a> •
-    <a href="https://github.com/denniemok/Tab-Complete-Fix/wiki">User Guide</a> •
-    <a href="https://github.com/denniemok/Tab-Complete-Fix/issues">Issue Tracker</a>
+    <a href="https://github.com/denniemok/tab-complete-fix/releases">Latest Release</a> •
+    <a href="https://github.com/denniemok/tab-complete-fix/wiki">User Guide</a> •
+    <a href="https://github.com/denniemok/tab-complete-fix/issues">Issue Tracker</a>
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 <hr>
 
 ### Introduction
-This simple patch addresses a tab-complete issue on ImanitySpigot2. This fix is especially useful for servers with a staff vanish system. You may refer to [Issue #11](https://github.com/Imanity-Software/ImanitySpigot2-Issues/issues/11) for details of the issue.<br>
+This simple patch addresses a tab-complete issue with invisible player names on ImanitySpigot2. The fix is especially useful for servers with a staff vanish system. You may refer to [Issue #11](https://github.com/Imanity-Software/ImanitySpigot2-Issues/issues/11) for details of the issue.<br>
 
 <hr>
 
