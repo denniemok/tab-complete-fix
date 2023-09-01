@@ -1,16 +1,16 @@
 <br>
 <h3 align="center">Tab Complete Fix for iSpigot2</h3>
-<p align="center">A simple fix for <a href="https://github.com/Imanity-Software/ImanitySpigot2-Issues/issues/11">Issue #11.</a></p>
+<p align="center">
+    <img src="https://img.shields.io/badge/Version-1.0.2-green"> <img src="https://img.shields.io/badge/Spigot-1.8+-lightgrey"> <img src="https://img.shields.io/badge/License-MIT-blue"> <img src="https://img.shields.io/badge/Language-Java-yellow">
+</p>
 
 <p align="center">
+    A simple fix for <a href="https://github.com/Imanity-Software/ImanitySpigot2-Issues/issues/11">Issue #11.</a><br>
     <a href="https://github.com/denniemok/tab-complete-fix/releases">Latest Release</a> •
     <a href="https://github.com/denniemok/tab-complete-fix/wiki">User Guide</a> •
     <a href="https://github.com/denniemok/tab-complete-fix/issues">Issue Tracker</a>
 </p>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/Version-1.0.2-green"> <img src="https://img.shields.io/badge/Spigot-1.8+-lightgrey"> <img src="https://img.shields.io/badge/License-MIT-blue"> <img src="https://img.shields.io/badge/Language-Java-yellow">
-</p><br>
+<br>
 
 <hr>
 
