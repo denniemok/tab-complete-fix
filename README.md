@@ -5,7 +5,6 @@
 </p>
 
 <p align="center">
-    A simple fix for <a href="https://github.com/Imanity-Software/ImanitySpigot2-Issues/issues/11">Issue #11.</a><br>
     <a href="https://github.com/denniemok/tab-complete-fix/releases">Latest Release</a> •
     <a href="https://github.com/denniemok/tab-complete-fix/wiki">User Guide</a> •
     <a href="https://github.com/denniemok/tab-complete-fix/issues">Issue Tracker</a>
